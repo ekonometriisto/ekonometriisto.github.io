@@ -7,12 +7,18 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.4.1"
+gem "jekyll", "= 3.9.4" # <-- 이 부분을 Jekyll 3.9.4 버전으로 변경했습니다.
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minima", "~> 2.5"
+# gem "minima", "~> 2.5"
+
+gem "github-pages", "~> 229", group: :jekyll_plugins
+
+
+# Monos 테마 추가 (이 줄은 이전에 에러를 냈으므로 주석 처리된 상태로 유지)
+# gem "jekyll-theme-monos"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
-# gem "github-pages", group: :jekyll_plugins
+# gem "github-pages", group: :jekyll_plugins # 이 줄은 위에서 이미 활성화되어 있으므로 중복하지 않습니다.
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"

@@ -28,7 +28,7 @@ twitter_username: ekonometriisto
 github_username:  ekonometriisto
 
 # Build settings
-theme: minima
+theme: monos
 plugins:
   - jekyll-feed
 

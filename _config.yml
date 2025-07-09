@@ -28,7 +28,8 @@ twitter_username: ekonometriisto
 github_username:  ekonometriisto
 
 # Build settings
-theme: monos
+# theme: monos
+remote_theme: pages-themes/monos@main # <-- 이 줄을 추가합니다.
 plugins:
   - jekyll-feed
 

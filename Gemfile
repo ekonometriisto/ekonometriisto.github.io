@@ -22,6 +22,8 @@ gem "github-pages", "~> 229", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-remote-theme" # <--- 이 줄을 추가합니다.
+
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
